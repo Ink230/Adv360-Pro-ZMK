@@ -24,28 +24,17 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            display-name = "Base";
-            bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 0                                                   &mo 4      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 0      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 0
-            >;
-        };
-
         base {
             bindings = <
-&kp CAPSLOCK      &trans  &trans  &trans  &trans  &trans  &trans                                                                     &trans     &trans  &trans         &trans       &trans  &trans  &trans
-&kp TAB           &trans  &trans  &trans  &trans  &trans  &trans                                                                     &trans     &trans  &trans         &trans       &trans  &trans  &trans
-&kp LEFT_SHIFT    &trans  &trans  &trans  &trans  &trans  &trans         &mo 2       &kp LEFT_ALT      &kp DELETE  &kp LEFT_CONTROL  &trans     &trans  &trans         &trans       &trans  &trans  &kp LEFT_WIN
-&kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans                             &mo 3             &kp HOME                                 &trans  &trans         &trans       &trans  &trans  &kp TAB
-&kp SPACE         &trans  &trans  &trans  &trans          &kp BACKSPACE  &kp ESCAPE  &mo 4             &kp END     &kp ENTER         &kp SPACE          &kp PAGE_DOWN  &kp PAGE_UP  &trans  &trans  &trans
+&kp CAPSLOCK      &trans  &kp DLLR   &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp AT                                                                     &kp PERCENT  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp AMPERSAND  &kp MINUS  &kp EQUAL
+&kp TAB           &kp Q   &kp W      &kp F             &kp P                 &kp G           &kp TILDE                                                                  &kp CARET    &kp J            &kp L                  &kp U              &kp Y          &none      &kp EXCL
+&kp LEFT_CONTROL  &kp A   &kp R      &kp S             &kp T                 &kp D           &kp GRAVE      &mo 1       &kp LEFT_ALT      &kp DELETE  &kp LEFT_CONTROL  &kp ASTRK    &kp H            &kp N                  &kp E              &kp I          &kp O      &kp LEFT_WIN
+&kp LEFT_SHIFT    &kp Z   &kp X      &kp C             &kp V                 &kp B                                      &mo 2             &kp HOME                                   &kp K            &kp M                  &kp COMMA          &kp DOT        &kp COLON  &kp TAB
+&kp SPACE         &trans  &kp EQUAL  &kp SINGLE_QUOTE  &kp SLASH                             &kp BACKSPACE  &kp ESCAPE  &mo 3             &kp END     &kp ENTER         &kp SPACE                     &kp PAGE_DOWN          &kp PAGE_UP        &kp BACKSLASH  &trans     &trans
             >;
         };
 
-        navigation {
+        hotkeys {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -55,7 +44,7 @@
             >;
         };
 
-        hotkeys {
+        navigation {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -73,6 +62,17 @@
 &studio_unlock  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &stp STP_BAT     &none  &none       &none       &none  &none  &none
 &none           &none         &none         &none         &macro_ver    &none                             &none      &none                                    &none  &none       &none       &none  &none  &none
 &none           &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG         &bl BL_INC  &bl BL_DEC  &none  &none  &none
+            >;
+        };
+
+        default_layer {
+            display-name = "Base";
+            bindings = <
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 4                                                   &mo 3      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 4      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 4
             >;
         };
     };
