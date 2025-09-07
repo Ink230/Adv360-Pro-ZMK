@@ -30,7 +30,7 @@
 &kp TAB           &kp Q   &kp W      &kp F             &kp P                 &kp G           &kp TILDE                                                                  &kp CARET    &kp J            &kp L                  &kp U              &kp Y          &none      &kp EXCL
 &kp LEFT_CONTROL  &kp A   &kp R      &kp S             &kp T                 &kp D           &kp GRAVE      &mo 1       &kp LEFT_ALT      &kp DELETE  &kp LEFT_CONTROL  &kp ASTRK    &kp H            &kp N                  &kp E              &kp I          &kp O      &kp LEFT_WIN
 &kp LEFT_SHIFT    &kp Z   &kp X      &kp C             &kp V                 &kp B                                      &mo 2             &kp HOME                                   &kp K            &kp M                  &kp COMMA          &kp DOT        &kp COLON  &kp TAB
-&kp SPACE         &trans  &kp EQUAL  &kp SINGLE_QUOTE  &kp SLASH                             &kp BACKSPACE  &kp ESCAPE  &mo 3             &kp END     &kp ENTER         &kp SPACE                     &kp PAGE_DOWN          &kp PAGE_UP        &kp BACKSLASH  &trans     &tog 4
+&kp SPACE         &trans  &kp EQUAL  &kp SINGLE_QUOTE  &kp SLASH                             &kp BACKSPACE  &kp ESCAPE  &mo 3             &kp END     &kp ENTER         &kp SPACE                     &kp PAGE_DOWN          &kp PAGE_UP        &kp BACKSLASH  &trans     &to 4
             >;
         };
 
