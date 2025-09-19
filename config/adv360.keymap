@@ -36,11 +36,11 @@
 
         navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans        &trans  &trans            &trans    &trans             &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans        &trans  &kp LEFT_BRACKET  &kp UP    &kp RIGHT_BRACKET  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans        &trans  &kp LEFT          &kp DOWN  &kp RIGHT          &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &trans  &trans            &trans    &trans             &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &kp LEFT_WIN          &trans            &trans    &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans  &trans                                         &trans  &trans  &trans            &trans    &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans  &trans                                         &trans  &trans  &kp LEFT_BRACKET  &kp UP    &kp RIGHT_BRACKET  &trans  &trans
+&trans  &trans  &trans  &trans  &kp LEFT_WIN  &trans  &trans  &trans  &trans      &trans  &trans     &trans  &trans  &kp LEFT          &kp DOWN  &kp RIGHT          &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans                  &trans      &trans                     &trans  &trans            &trans    &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans                &trans  &trans  &trans      &trans  &kp ENTER  &none           &trans            &trans    &trans             &trans  &trans
             >;
         };
 
