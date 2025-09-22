@@ -47,8 +47,8 @@
         navigation {
             bindings = <
 &trans  &trans  &trans  &trans                &trans        &trans            &trans                                         &trans        &trans     &trans            &trans    &trans             &trans  &trans
-&trans  &trans  &trans  &trans                &trans        &trans            &trans                                         &trans        &trans     &kp LEFT_BRACKET  &kp UP    &kp RIGHT_BRACKET  &trans  &trans
-&trans  &trans  &trans  &kp LS(LEFT_CONTROL)  &kp LEFT_WIN  &kp LEFT_CONTROL  &trans  &trans  &trans      &trans  &trans     &trans        &kp MINUS  &kp LEFT          &kp DOWN  &kp RIGHT          &trans  &trans
+&trans  &trans  &kp W   &trans                &trans        &trans            &trans                                         &trans        &trans     &kp LEFT_BRACKET  &kp UP    &kp RIGHT_BRACKET  &trans  &trans
+&trans  &trans  &trans  &kp LS(LEFT_CONTROL)  &kp LEFT_WIN  &kp LEFT_CONTROL  &trans  &trans  &trans      &trans  &trans     &trans        &kp MINUS  &kp LEFT          &kp DOWN  &kp RIGHT          &trans  &kp B
 &trans  &trans  &trans  &trans                &trans        &kp LEFT_SHIFT                    &trans      &trans                           &kp EQUAL  &kp PAGE_DOWN     &trans    &kp PG_UP          &trans  &trans
 &trans  &trans  &trans  &trans                &trans                          &trans  &trans  &trans      &trans  &kp ENTER  &kp LEFT_ALT             &trans            &trans    &trans             &trans  &trans
             >;
