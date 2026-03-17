@@ -27,9 +27,9 @@
         base {
             bindings = <
 &kp CAPSLOCK      &kp ASTRK  &kp CARET  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp HASH                                                                       &kp PERCENT  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp AMPERSAND  &kp MINUS  &kp EQUAL
-&kp TAB           &kp Q      &kp W      &kp F             &kp P                 &kp G           &kp GRAVE                                                                      &kp DLLR     &kp J            &kp L                  &kp U              &kp Y          &none      &kp SEMICOLON
+&kp TAB           &kp Q      &kp W      &kp F             &kp P                 &kp G           &kp GRAVE                                                                      &kp DLLR     &kp J            &kp L                  &kp U              &kp Y          &none      &kp PIPE
 &kp ESC           &kp A      &kp R      &kp S             &kp T                 &kp D           &kp AT         &kp ESC         &kp LEFT_ALT      &kp DELETE  &kp LEFT_CONTROL  &kp EXCL     &kp H            &kp N                  &kp E              &kp I          &kp O      &kp COLON
-&kp LEFT_CONTROL  &kp Z      &kp X      &kp C             &kp V                 &kp B                                          &mo 1             &kp HOME                                   &kp K            &kp M                  &kp COMMA          &kp DOT        &kp PIPE   &kp LEFT_WIN
+&kp LEFT_CONTROL  &kp Z      &kp X      &kp C             &kp V                 &kp B                                          &mo 1             &kp HOME                                   &kp K            &kp M                  &kp COMMA          &kp DOT        &kp SEMI   &kp LEFT_WIN
 &mo 3             &trans     &kp EQUAL  &kp SINGLE_QUOTE  &kp SLASH                             &kp BACKSPACE  &kp LEFT_SHIFT  &mo 2             &kp END     &kp ENTER         &kp SPACE                     &kp PAGE_DOWN          &kp PAGE_UP        &kp BACKSLASH  &trans     &to 4
             >;
         };
