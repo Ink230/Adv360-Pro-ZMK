@@ -39,7 +39,7 @@
 &trans  &kp F1  &kp F2          &kp F3          &kp F4          &kp F5          &kp F6                                      &kp F7  &kp F8          &kp F9          &kp F10         &kp F11         &kp F12  &trans
 &trans  &trans  &kp LS(LC(F1))  &kp LS(LC(F2))  &kp LS(LC(F3))  &kp LS(LC(F4))  &trans                                      &trans  &kp LS(LC(F5))  &kp LS(LC(F6))  &kp LS(LC(F7))  &kp LS(LC(F8))  &trans   &trans
 &trans  &kp N1  &kp N2          &kp N3          &kp N4          &kp N5          &trans  &trans  &trans      &trans  &trans  &trans  &kp N6          &kp N7          &kp N8          &kp N9          &kp N0   &trans
-&trans  &trans  &kp LC(LA(F1))  &kp LC(LA(F2))  &kp LC(LA(F3))  &kp LC(LA(F4))                  &trans      &trans                  &kp LC(LA(F5))  &kp LC(LA(F6))  &trans          &trans          &trans   &trans
+&trans  &trans  &kp LC(LA(F1))  &kp LC(LA(F2))  &kp LC(LA(F3))  &kp LC(LA(F4))                  &trans      &trans                  &kp LC(LA(F5))  &kp LA(GRAVE)   &trans          &trans          &trans   &trans
 &trans  &trans  &trans          &trans          &trans                          &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans          &trans          &trans   &trans
             >;
         };
