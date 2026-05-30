@@ -28,29 +28,29 @@
             bindings = <
 &kp CAPSLOCK      &trans  &kp EQUAL  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &trans                                                                 &trans      &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp AMPERSAND  &kp MINUS  &kp EQUAL
 &kp TAB           &kp Q   &kp W      &kp F             &kp P                 &kp G           &kp PERCENT                                                            &kp EXCL    &kp J            &kp L                  &kp U              &kp Y          &trans     &kp AT
-&kp SEMI          &kp A   &kp R      &kp S             &kp T                 &kp D           &kp CARET      &kp ESC         &kp LEFT_ALT      &trans    &kp DELETE  &kp DOLLAR  &kp H            &kp N                  &kp E              &kp I          &kp O      &kp COLON
-&kp LEFT_CONTROL  &kp Z   &kp X      &kp C             &kp V                 &kp B                                          &mo 1             &kp HOME                          &kp K            &kp M                  &kp COMMA          &kp DOT        &trans     &kp LEFT_WIN
-&mo 3             &trans  &kp GRAVE  &kp SINGLE_QUOTE  &kp SLASH                             &kp BACKSPACE  &kp LEFT_SHIFT  &mo 2             &kp END   &kp ENTER   &kp SPACE                    &kp HASH               &kp STAR           &kp BACKSLASH  &trans     &to 4
+&kp SEMI          &kp A   &kp R      &kp S             &kp T                 &kp D           &kp CARET      &kp ESC         &mo 1             &trans    &kp DELETE  &kp DOLLAR  &kp H            &kp N                  &kp E              &kp I          &kp O      &kp COLON
+&kp LEFT_CONTROL  &kp Z   &kp X      &kp C             &kp V                 &kp B                                          &mo 2             &kp HOME                          &kp K            &kp M                  &kp COMMA          &kp DOT        &trans     &kp LEFT_WIN
+&mo 3             &trans  &kp GRAVE  &kp SINGLE_QUOTE  &kp SLASH                             &kp BACKSPACE  &kp LEFT_SHIFT  &kp LEFT_ALT      &kp END   &kp ENTER   &kp SPACE                    &kp HASH               &kp STAR           &kp BACKSLASH  &trans     &to 4
             >;
         };
 
         hotkeys {
             bindings = <
-&trans  &kp F1  &kp F2          &kp F3          &kp F4          &kp F5          &kp F6                                      &kp F7  &kp F8          &kp F9          &kp F10         &kp F11         &kp F12  &trans
-&trans  &trans  &kp LS(LC(F1))  &kp LS(LC(F2))  &kp LS(LC(F3))  &kp LS(LC(F4))  &trans                                      &trans  &kp LS(LC(F5))  &kp LS(LC(F6))  &kp LS(LC(F7))  &kp LS(LC(F8))  &trans   &trans
-&trans  &kp N1  &kp N2          &kp N3          &kp N4          &kp N5          &trans  &trans  &trans      &trans  &trans  &trans  &kp N6          &kp N7          &kp N8          &kp N9          &kp N0   &trans
-&trans  &trans  &kp LC(LA(F1))  &kp LC(LA(F2))  &kp LC(LA(F3))  &kp LC(LA(F4))                  &trans      &trans                  &kp LC(LA(F5))  &kp LA(GRAVE)   &trans          &trans          &trans   &trans
-&trans  &trans  &trans          &trans          &trans                          &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans          &trans          &trans   &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                                      &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans   &trans   &trans   &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans  &trans  &trans      &trans  &trans  &trans  &kp N6  &kp N7  &kp N8   &kp N9   &kp N0   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans   &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
         };
 
         navigation {
             bindings = <
-&trans  &trans  &trans  &trans                &trans        &trans            &trans                                         &trans        &trans     &trans            &trans           &trans             &trans  &trans
-&trans  &trans  &kp W   &trans                &trans        &trans            &trans                                         &trans        &trans     &kp LEFT_BRACKET  &kp UP           &kp RIGHT_BRACKET  &trans  &trans
-&trans  &trans  &trans  &kp LS(LEFT_CONTROL)  &kp LEFT_WIN  &kp LEFT_CONTROL  &trans  &trans  &trans      &trans  &trans     &trans        &kp MINUS  &kp LEFT          &kp DOWN         &kp RIGHT          &trans  &kp B
-&trans  &trans  &trans  &trans                &trans        &kp LEFT_SHIFT                    &trans      &trans                           &kp EQUAL  &kp PAGE_DOWN     &trans           &kp PG_UP          &trans  &trans
-&trans  &trans  &trans  &trans                &trans                          &trans  &trans  &trans      &trans  &kp ENTER  &kp LEFT_ALT             &kp SCROLLLOCK    &kp PAUSE_BREAK  &kp INS            &trans  &trans
+&trans                &trans          &trans          &trans          &trans          &trans            &trans                                                 &trans        &trans     &trans            &trans           &trans             &trans  &trans
+&trans                &trans          &kp LS(LC(F1))  &kp LS(LC(F2))  &kp LS(LC(F3))  &kp LS(LC(F4))    &kp LS(LC(F5))                                         &trans        &trans     &kp LEFT_BRACKET  &kp UP           &kp RIGHT_BRACKET  &trans  &trans
+&kp LS(LEFT_CONTROL)  &trans          &trans          &trans          &kp LEFT_WIN    &kp LEFT_CONTROL  &trans          &trans  &trans      &trans  &trans     &trans        &kp MINUS  &kp LEFT          &kp DOWN         &kp RIGHT          &trans  &trans
+&trans                &kp LC(LA(F1))  &kp LC(LA(F2))  &kp LC(LA(F3))  &kp LC(LA(F4))  &kp LA(GRAVE)                             &trans      &trans                           &kp EQUAL  &kp PAGE_DOWN     &trans           &kp PG_UP          &trans  &trans
+&trans                &trans          &trans          &trans          &trans                            &trans          &trans  &trans      &trans  &kp ENTER  &kp LEFT_ALT             &kp SCROLLLOCK    &kp PAUSE_BREAK  &kp INS            &trans  &trans
             >;
         };
 
