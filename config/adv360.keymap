@@ -46,11 +46,11 @@
 
         navigation {
             bindings = <
-&trans                &trans          &trans          &trans          &trans          &trans            &trans                                                 &trans        &trans     &trans            &trans           &trans             &trans  &trans
-&trans                &trans          &kp LS(LC(F1))  &kp LS(LC(F2))  &kp LS(LC(F3))  &kp LS(LC(F4))    &kp LS(LC(F5))                                         &trans        &trans     &kp LEFT_BRACKET  &kp UP           &kp RIGHT_BRACKET  &trans  &trans
-&kp LS(LEFT_CONTROL)  &trans          &trans          &trans          &kp LEFT_WIN    &kp LEFT_CONTROL  &trans          &trans  &trans      &trans  &trans     &trans        &kp MINUS  &kp LEFT          &kp DOWN         &kp RIGHT          &trans  &trans
-&trans                &kp LC(LA(F1))  &kp LC(LA(F2))  &kp LC(LA(F3))  &kp LC(LA(F4))  &kp LA(GRAVE)                             &trans      &trans                           &kp EQUAL  &kp PAGE_DOWN     &trans           &kp PG_UP          &trans  &trans
-&trans                &trans          &trans          &trans          &trans                            &trans          &trans  &trans      &trans  &kp ENTER  &kp LEFT_ALT             &kp SCROLLLOCK    &kp PAUSE_BREAK  &kp INS            &trans  &trans
+&trans                &trans          &trans          &trans                &trans          &trans            &trans                                                 &trans        &trans     &trans            &trans           &trans             &trans  &trans
+&trans                &trans          &kp LS(LC(F1))  &kp LS(LC(F2))        &kp LS(LC(F3))  &kp LS(LC(F4))    &kp LS(LC(F5))                                         &trans        &trans     &kp LEFT_BRACKET  &kp UP           &kp RIGHT_BRACKET  &trans  &trans
+&kp LS(LEFT_CONTROL)  &trans          &trans          &kp LS(LEFT_CONTROL)  &kp LEFT_WIN    &kp LEFT_CONTROL  &trans          &trans  &trans      &trans  &trans     &trans        &kp MINUS  &kp LEFT          &kp DOWN         &kp RIGHT          &trans  &kp B
+&kp LS(LEFT_CONTROL)  &kp LC(LA(F1))  &kp LC(LA(F2))  &kp LC(LA(F3))        &kp LC(LA(F4))  &kp LA(GRAVE)                             &trans      &trans                           &kp EQUAL  &kp PAGE_DOWN     &trans           &kp PG_UP          &trans  &kp C
+&trans                &trans          &trans          &trans                &trans                            &trans          &trans  &trans      &trans  &kp ENTER  &kp LEFT_ALT             &kp SCROLLLOCK    &kp PAUSE_BREAK  &kp INS            &trans  &trans
             >;
         };
 
